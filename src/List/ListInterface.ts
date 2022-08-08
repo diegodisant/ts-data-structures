@@ -1,4 +1,4 @@
-export interface ListInterface<NodeType> {
+export default interface ListInterface<NodeType> {
   add(value: NodeType): void;
 
   preppend(value: NodeType): void;
@@ -12,4 +12,4 @@ export interface ListInterface<NodeType> {
   isEmpty(): boolean;
 
   getSize(): number;
-}
+};

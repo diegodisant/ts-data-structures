@@ -1,6 +1,6 @@
-import { ListInterface } from "./ListInterface";
+import ListInterface from './ListInterface';
 
-export abstract class AbstractList<NodeType> implements ListInterface<NodeType> {
+export default abstract class AbstractList<NodeType> implements ListInterface<NodeType> {
   protected size: number = 0;
 
   abstract add(value: NodeType): void;

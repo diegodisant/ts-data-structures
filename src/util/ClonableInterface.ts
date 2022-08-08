@@ -1,3 +1,3 @@
-export interface ClonableInterface<CloneType> {
+export default interface ClonableInterface<CloneType> {
   clone(): CloneType;
 }
