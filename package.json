@@ -1,0 +1,13 @@
+{
+  "name": "ts-data-structures",
+  "version": "1.0.0",
+  "description": "Data Structures made in TypeScript",
+  "main": "index.js",
+  "repository": "git@github.com:diegodisant/ts-data-structures.git",
+  "author": "diegodisant",
+  "license": "GPL",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
