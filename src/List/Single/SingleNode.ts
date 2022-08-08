@@ -1,6 +1,8 @@
 import ClonableInterface from '../../util/ClonableInterface';
 
-export default class SingleNode<ValueType> implements ClonableInterface<SingleNode<ValueType>> {
+export default class SingleNode<ValueType>
+  implements ClonableInterface<SingleNode<ValueType>>
+{
   private nextNode: SingleNode<ValueType> | null = null;
 
   private value: ValueType | null = null;

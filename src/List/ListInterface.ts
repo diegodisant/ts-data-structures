@@ -12,4 +12,4 @@ export default interface ListInterface<NodeType> {
   isEmpty(): boolean;
 
   getSize(): number;
-};
+}

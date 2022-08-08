@@ -1,4 +1,3 @@
 describe('CloneTest', () => {
-  test('clone test', () => {
-  });
+  test('clone test', () => {});
 });
