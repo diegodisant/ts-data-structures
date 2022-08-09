@@ -30,7 +30,10 @@
         "import/no-unresolved": "off",
         "no-unused-vars": "off",
         "semi": "off",
-        "no-console": "off"
+        "no-console": "off",
+        "class-methods-use-this": "off",
+        "brace-style": "off",
+        "indent": "off"
       }
     },
     {
