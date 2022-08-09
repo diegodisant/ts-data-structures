@@ -22,9 +22,12 @@
   },
   "scripts": {
     "build": "tsc",
+    "run-js": "exec_script() { node ./build/$1.js; }; exec_script",
     "test": "jest",
+    "test-group": "run_jest_group() { jest --testNamePattern=$1; }; run_jest_group",
     "lint:check": "eslint --fix-dry-run --ext .ts,.spec.ts .",
     "lint:fix": "eslint --fix --ext .ts,.spec.ts .",
-    "format": "prettier --ignore-path .gitignore --write \"**/*.+(ts)\""
+    "format": "prettier --ignore-path .gitignore --write \"**/*.+(ts)\"",
+    "git:hooks": "git config core.hooksPath .githooks"
   }
 }
