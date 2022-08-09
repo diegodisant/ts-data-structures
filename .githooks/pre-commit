@@ -1,0 +1,5 @@
+#!/bin/sh
+
+yarn lint:check && yarn format
+
+exec 1>&2
