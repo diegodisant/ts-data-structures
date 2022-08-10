@@ -5,11 +5,7 @@ describe('SingleList', () => {
     const maxSize = 10 ** 6;
     const list = new SingleList<number>();
 
-    for (
-      let elementId = 1;
-      elementId <= maxSize;
-      elementId += 1
-    ) {
+    for (let elementId = 1; elementId <= maxSize; elementId += 1) {
       list.add(elementId);
     }
 
