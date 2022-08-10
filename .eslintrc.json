@@ -39,6 +39,8 @@
     {
       "files": ["test/**/*.spec.ts"],
       "rules": {
+        "import/extensions": "off",
+        "import/no-unresolved": "off",
         "no-undef": "off"
       }
     }

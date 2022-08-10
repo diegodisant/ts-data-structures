@@ -1,15 +1,15 @@
 import ListInterface from './ListInterface';
 
-export default abstract class AbstractList<NodeType> implements ListInterface<NodeType> {
+export default abstract class AbstractList<ValueType> implements ListInterface<ValueType> {
   protected size: number = 0;
 
-  abstract add(value: NodeType): void;
+  abstract add(value: ValueType): void;
 
-  abstract preppend(value: NodeType): void;
+  abstract preppend(value: ValueType): void;
 
-  abstract delete(value: NodeType): boolean;
+  abstract delete(value: ValueType): boolean;
 
-  abstract contains(value: NodeType): boolean;
+  abstract contains(value: ValueType): boolean;
 
   abstract print(): void;
 

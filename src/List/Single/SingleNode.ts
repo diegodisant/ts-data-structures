@@ -11,7 +11,7 @@ export default class SingleNode<ValueType> implements ClonableInterface<SingleNo
     return this;
   }
 
-  getNextNode() {
+  getNextNode(): SingleNode<ValueType> | null {
     return this.nextNode;
   }
 
@@ -21,7 +21,7 @@ export default class SingleNode<ValueType> implements ClonableInterface<SingleNo
     return this;
   }
 
-  getValue() {
+  getValue(): ValueType | null {
     return this.value;
   }
 

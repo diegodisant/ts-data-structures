@@ -1,3 +1,5 @@
 describe('CloneTest', () => {
-  test('clone test', () => {});
+  test('clone test', () => {
+    expect(1).toBe(1);
+  });
 });

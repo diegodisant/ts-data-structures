@@ -1,11 +1,11 @@
-export default interface ListInterface<NodeType> {
-  add(value: NodeType): void;
+export default interface ListInterface<ValueType> {
+  add(value: ValueType): void;
 
-  preppend(value: NodeType): void;
+  preppend(value: ValueType): void;
 
-  delete(value: NodeType): boolean;
+  delete(value: ValueType): boolean;
 
-  contains(value: NodeType): boolean;
+  contains(value: ValueType): boolean;
 
   print(): void;
 
